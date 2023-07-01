@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mycart.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+         <!-- Navbar -->
+         <nav class="navbar">
+            <div class="left-div">
+                <span>Shoping Cart</span>
+            </div>
+            <div class="right-div">
+                <a class="home" href="../index.html">Home</a >
+                    <a class="login" href="../login/login.html">Login</a >
+                    <a class="signup" href="../Signup/signup.html">Signup</a >
+                    <a class="myCart" href="./myCart/mycart.html">My Cart</a >
+                    <a class="profile" href="../Profile/profile.html">Profile</a >
+            </div>
+        </nav>
+
+        <div class="container">
+            <h2>My Cart</h2>
+            <div class="cart">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <h3>Checkout List</h3>
+                    <div class="mainCart"></div>
+    
+                    <div class="total">
+                        <div class="text">Total</div>
+                        <div class="total-price"></div>
+                    </div>
+                    <button id="checkout">Click To Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./mycart.js"></script>
+</body>
+</html>

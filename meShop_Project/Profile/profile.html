@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="left-div">
+                <span>Shoping Cart</span>
+            </div>
+        </nav>
+        <div class="down-div">
+        <div class="myProfile-div">
+            <p>My Profile</p>
+            <form action="">
+            <div class="inputbox">
+                <input type="text" id="first-name" placeholder="First Name">
+            </div>
+            <div class="inputbox">
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
+            <button id="saveInfo-btn">Save Info</button>
+        </form>
+        </div>
+        
+        <div class="editPassword-div">
+            <p>Edit password</p>
+            <form action="">
+                <div class="inputbox">
+                    <input type="password" id="old-password" placeholder="Old Password"
+                    aria-describedby="oldPasswordHelp">
+                </div>
+                <div class="inputbox">                
+                    <input type="password" id="new-password" placeholder="New Password "
+                    aria-describedby="newPasswordHelp">
+                </div>
+                <div class="inputbox">                
+                    <input type="password" id="confirmPassword" placeholder="Confirm New Password"
+                    aria-describedby="confirmNewPasswordHelp">
+                </div>           
+                <button id="changePassword-btn">Change Password</button>
+                <br><br>
+                <button id="logOut-btn">Logout</button>
+            </form>
+        </div>
+
+    </div>
+    </div>
+    <script src="./profile.js"></script>
+</body>
+</html>
